@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-size: cover;
+}
+header {
+    background-color: black;
+    height: 5em;
+}
+img{
+    margin-left: 10%;
+    margin-top: 13px;
+}
+.head-tag{
+    float: right;
+    margin-top: 27px;
+    margin-right: 55px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+ 
+.head-tag a:hover{
+    background-color: teal;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 100px;
+}
+
+.sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}
+
+/* Form */
+.login{
+    float: right;
+    border: 2px solid red;
+    background-color: beige;
+    height: 15em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+
+.login h2{
+    text-align: center;
+}
+
+.login input{
+    height: 1.5em;
+}
+
+.login #login-button{
+    width: 100%;
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 33%;
+
+}
+
+footer h3{
+    text-align: center;
+}
